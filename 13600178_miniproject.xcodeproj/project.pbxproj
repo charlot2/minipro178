@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02319073219E822700BA6915 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02319070219E822600BA6915 /* ProgressHUD.bundle */; };
+		02319074219E822700BA6915 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 02319072219E822600BA6915 /* ProgressHUD.m */; };
+		02319077219E84EA00BA6915 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02319076219E84EA00BA6915 /* QuestionBank.swift */; };
+		02319079219E854900BA6915 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02319078219E854900BA6915 /* Question.swift */; };
 		02B1B78321958585002E4BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1B78221958585002E4BEA /* AppDelegate.swift */; };
 		02B1B78521958585002E4BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1B78421958585002E4BEA /* ViewController.swift */; };
 		02B1B78821958585002E4BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B1B78621958585002E4BEA /* Main.storyboard */; };
 		02B1B78A21958586002E4BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B1B78921958586002E4BEA /* Assets.xcassets */; };
 		02B1B78D21958586002E4BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B1B78B21958586002E4BEA /* LaunchScreen.storyboard */; };
+		02B1B795219591C1002E4BEA /* Colorlucky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1B794219591C1002E4BEA /* Colorlucky.swift */; };
+		02B1B7972195ACC0002E4BEA /* Colorlucky2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B1B7962195ACC0002E4BEA /* Colorlucky2.swift */; };
+		02E6C9E22196AD3600C76C2A /* Colorlucky3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E6C9E12196AD3600C76C2A /* Colorlucky3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0231906F219E822500BA6915 /* 13600178_miniproject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13600178_miniproject-Bridging-Header.h"; sourceTree = "<group>"; };
+		02319070219E822600BA6915 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		02319071219E822600BA6915 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		02319072219E822600BA6915 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		02319076219E84EA00BA6915 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		02319078219E854900BA6915 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		02B1B77F21958585002E4BEA /* 13600178_miniproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 13600178_miniproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B1B78221958585002E4BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02B1B78421958585002E4BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,9 @@
 		02B1B78921958586002E4BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B1B78C21958586002E4BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B1B78E21958586002E4BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B1B794219591C1002E4BEA /* Colorlucky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorlucky.swift; sourceTree = "<group>"; };
+		02B1B7962195ACC0002E4BEA /* Colorlucky2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorlucky2.swift; sourceTree = "<group>"; };
+		02E6C9E12196AD3600C76C2A /* Colorlucky3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorlucky3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,11 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02319075219E84B900BA6915 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				02319076219E84EA00BA6915 /* QuestionBank.swift */,
+				02319078219E854900BA6915 /* Question.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		02B1B77621958585002E4BEA = {
 			isa = PBXGroup;
 			children = (
 				02B1B78121958585002E4BEA /* 13600178_miniproject */,
 				02B1B78021958585002E4BEA /* Products */,
+				02319070219E822600BA6915 /* ProgressHUD.bundle */,
+				02319071219E822600BA6915 /* ProgressHUD.h */,
+				02319072219E822600BA6915 /* ProgressHUD.m */,
+				0231906F219E822500BA6915 /* 13600178_miniproject-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +83,12 @@
 		02B1B78121958585002E4BEA /* 13600178_miniproject */ = {
 			isa = PBXGroup;
 			children = (
+				02319075219E84B900BA6915 /* model */,
 				02B1B78221958585002E4BEA /* AppDelegate.swift */,
 				02B1B78421958585002E4BEA /* ViewController.swift */,
+				02B1B794219591C1002E4BEA /* Colorlucky.swift */,
+				02B1B7962195ACC0002E4BEA /* Colorlucky2.swift */,
+				02E6C9E12196AD3600C76C2A /* Colorlucky3.swift */,
 				02B1B78621958585002E4BEA /* Main.storyboard */,
 				02B1B78921958586002E4BEA /* Assets.xcassets */,
 				02B1B78B21958586002E4BEA /* LaunchScreen.storyboard */,
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					02B1B77E21958585002E4BEA = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02319073219E822700BA6915 /* ProgressHUD.bundle in Resources */,
 				02B1B78D21958586002E4BEA /* LaunchScreen.storyboard in Resources */,
 				02B1B78A21958586002E4BEA /* Assets.xcassets in Resources */,
 				02B1B78821958585002E4BEA /* Main.storyboard in Resources */,
@@ -135,8 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02319074219E822700BA6915 /* ProgressHUD.m in Sources */,
+				02319079219E854900BA6915 /* Question.swift in Sources */,
+				02B1B795219591C1002E4BEA /* Colorlucky.swift in Sources */,
+				02B1B7972195ACC0002E4BEA /* Colorlucky2.swift in Sources */,
 				02B1B78521958585002E4BEA /* ViewController.swift in Sources */,
+				02E6C9E22196AD3600C76C2A /* Colorlucky3.swift in Sources */,
 				02B1B78321958585002E4BEA /* AppDelegate.swift in Sources */,
+				02319077219E84EA00BA6915 /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P36U569K7;
 				INFOPLIST_FILE = 13600178_miniproject/Info.plist;
@@ -291,6 +333,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.-3600178-miniproject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "13600178_miniproject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P36U569K7;
 				INFOPLIST_FILE = 13600178_miniproject/Info.plist;
@@ -309,6 +354,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "th.ac.su.ict.-3600178-miniproject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "13600178_miniproject-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
